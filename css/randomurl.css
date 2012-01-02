@@ -1,0 +1,55 @@
+
+html {overflow: auto;}
+
+
+
+
+
+
+
+html, body, div, iframe {margin: 0px; padding: 0px; height: 100%; border: none;}
+iframe {z-index:0;display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden;}
+
+#logo{
+  display: block;
+  width: 340px;
+  height: 220px;
+  top: 20px;
+  left: 60px;
+  z-index:999;
+  position:fixed;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  background-color: white; /* For IE8 and earlier */
+  background-image: url('../img/50-20-10.png') !important;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+#logo{
+    box-shadow: 0 0px 15px #222;
+   -webkit-box-shadow: 0 0 15px #222;
+   -moz-box-shadow: 0 0 15px #222;
+} 
+
+body.ie6 #logo,
+body.ie7 #logo,
+body.ie8 #logo {
+   zoom: 1;
+   filter: progid:DXImageTransform.Microsoft.Shadow(Color=#222, Strength=15, Direction=0),
+           progid:DXImageTransform.Microsoft.Shadow(Color=#222, Strength=15, Direction=90),
+           progid:DXImageTransform.Microsoft.Shadow(Color=#222, Strength=15, Direction=180),
+           progid:DXImageTransform.Microsoft.Shadow(Color=#222, Strength=15, Direction=270);
+}
+
+
+img{
+  width: 309px;
+  height: 134px;
+  margin: 14px 14px 22px;
+}
+
+.contact{
+ margin-left: 14px; 
+ font-family: 'Andale Mono', serif;
+}
