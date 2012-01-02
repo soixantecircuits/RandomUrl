@@ -56,8 +56,13 @@ $(function(){
 
     initialize: function() {
       projects.add(soixanteprojects);
-      $("#logo").bind('click', function(){
-        App.randProject();
+      $("#logo a").bind('click', function(e){
+        e.preventDefault();
+        
+        $("#url").fadeOut('slow',function(){
+          App.randProject();          
+        });
+
       });
       this.randProject();
     },
@@ -67,7 +72,8 @@ $(function(){
     },
 
     addOne: function(proj) {
-      $("#url").html('<iframe src="' + proj.get('url') + '" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"><a href="' + proj.get('url') + '">' + proj.get('url') + '</a></iframe>');
+        $("#url").html('<iframe src="' + proj.get('url') + '" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"><a href="' + proj.get('url') + '">' + proj.get('url') + '</a></iframe>');          
+        $("#url").fadeIn("5500");
     }
 
   });

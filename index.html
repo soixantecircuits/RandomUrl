@@ -22,16 +22,30 @@
       <img src="img/carte_de_visite.png" alt="Soixante circuits" title="Soixante circuits"/>
     </a>
     <span class="contact">Contact</span>
+    <div id="formulaire">
+      <form id="new_message">
+        <fieldset id="array">    
+          <input name="name" type="text" id="name" required placeholder="Votre nom">
+          <input name="email" type="email" id="email" required placeholder="Votre email">
+          <textarea name="message" id="message" placeholder="Votre message"></textarea>
+          <p class="text-center">
+            <input id="send_message" type="submit" value="Envoyer">
+          </p>
+        </fieldset>
+      </form>
+    </div>
   </div>
-  <div id="url">
-  </div>
+  <div id="url"></div>
+  <div id="nextUrl"></div>
 
   <script src="js/libs/json2.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
   <script src="js/libs/underscore-1.2.2.js"></script>
   <script src="js/libs/backbone.js"></script>
+  <script src="js/libs/h5f.min.js"></script>
   <script defer src="js/randomurl.js"></script>
+  <script defer src="js/script.js"></script>
 
   <script>
     var _gaq=[['_setAccount','UA-4596354-1'],['_trackPageview']];

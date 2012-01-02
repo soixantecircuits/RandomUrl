@@ -1,22 +1,28 @@
 
 html {overflow: auto;}
-
-
-
-
-
-
-
 html, body, div, iframe {margin: 0px; padding: 0px; height: 100%; border: none;}
 iframe {z-index:0;display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden;}
 
+#url{
+  z-index: 888;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+}
+#nextUrl{
+  position:absolute;
+  top:0px;
+  left:0px; 
+  z-index: 777;
+  width:100%;
+}
+
 #logo{
-  display: block;
   width: 340px;
-  height: 220px;
   top: 20px;
   left: 60px;
-  z-index:999;
+  z-index:9999;
   position:fixed;
   opacity: 0.8;
   filter: alpha(opacity=80);
@@ -24,6 +30,8 @@ iframe {z-index:0;display: block; width: 100%; border: none; overflow-y: auto; o
   background-image: url('../img/50-20-10.png') !important;
   background-repeat: repeat;
   overflow: hidden;
+  height: auto;
+  padding: 0px 0px 12px 0px;
 }
 
 #logo{
@@ -52,4 +60,32 @@ img{
 .contact{
  margin-left: 14px; 
  font-family: 'Andale Mono', serif;
+ cursor:pointer;
+ z-index: 9999;
+}
+
+#formulaire{
+  display:none;
+  overflow:hidden;
+  margin: 14px;
+  height:175px;
+}
+
+#formulaire input, textarea{
+  margin:4px 0px 0px;
+  background: white;
+  font-family: 'Andale Mono', serif;
+  width: 305px;
+  display:block;
+}
+
+#formulaire textarea{
+  height: 59px;
+}
+
+#formulaire input[type="submit"]{
+  width:auto;
+  text-align: center;
+  float: right;
+  border: none;
 }
