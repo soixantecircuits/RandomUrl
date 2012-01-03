@@ -68,7 +68,15 @@ $(function(){
     },
 
     randProject: function(){
-      this.addOne(projects.at(Math.floor(Math.random() * projects.length)));
+      
+      if(projects.length < 1){
+        console.log("GOOD");
+        projects.add(soixanteprojects);
+      }
+
+      var rand = Math.random();
+      this.addOne( projects.at( Math.floor(rand * projects.length) ) );    
+      projects.remove( projects.at( Math.floor(rand * projects.length) ) ); 
     },
 
     addOne: function(proj) {
