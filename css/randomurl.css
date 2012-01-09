@@ -84,18 +84,20 @@ ul{
 #formulaire{
   display:none;
   overflow:hidden;
-  text-align: right;
-  padding-right: 96px;
   height:175px;
 }
 
 #formulaire input, textarea{
   text-align: right;
-  padding-right: 96px;
-  margin:0px 0px 0px;
+  padding-left: 10px;
+  margin:0px;
   background: white;
-  width: 305px;
   display:block;
+  border: 0px;
+  width: 279px;
+  -webkit-box-align: right;
+  color: black;
+  
 }
 
 #formulaire textarea{
@@ -103,8 +105,6 @@ ul{
 }
 
 #formulaire input[type="submit"]{
-  text-align: right;
-  padding-right: 96px;
-  border: none;
   color: red;
+  width: 296px;
 }
