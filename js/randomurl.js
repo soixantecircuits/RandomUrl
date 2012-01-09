@@ -53,6 +53,8 @@ $(function(){
     addOne: function(proj) {
         $("#url").html('<iframe src="' + proj.get('url') + '" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"><a href="' + proj.get('url') + '">' + proj.get('url') + '</a></iframe>');          
         $("#url").fadeIn("5500");
+        $(".blue").removeClass("blue");
+        $("."+proj.get('type')).addClass("blue");
     }
 
   });
