@@ -46,8 +46,8 @@ $(function(){
       }
 
       var rand = Math.floor(Math.random()*projects.length);
-      this.addOne( projects.at(rand);    
-      projects.remove( projects.at(rand); 
+      this.addOne( projects.at(rand));    
+      projects.remove( projects.at(rand)); 
     },
 
     addOne: function(proj) {

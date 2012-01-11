@@ -48,9 +48,16 @@
   <script src="js/libs/underscore-1.2.2.js"></script>
   <script src="js/libs/backbone.js"></script>
   <script src="js/libs/h5f.min.js"></script>
+  <script src="js/libs/cufon-yui.js"></script>
+  <script src="js/fonts/AndaleMono.js"></script>
   <script defer src="js/randomurl.js"></script>
+  <script type="text/javascript">
+      Cufon.replace('h1'); // Works without a selector engine
+      Cufon.replace('#sub1'); // Requires a selector engine for IE 6-7, see above
+    </script>
   <script defer src="js/script.js"></script>
 
+  <script type="text/javascript"> Cufon.now(); </script>
   <script>
     var _gaq=[['_setAccount','UA-4596354-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
