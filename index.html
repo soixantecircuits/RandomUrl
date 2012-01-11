@@ -21,12 +21,7 @@
     <a href="#">
       <img src="img/cdv.png" alt="Soixante circuits" title="Soixante circuits"/>
     </a>
-    <ul>
-      <li class="application">Application</li>
-      <li class="enseignement">Enseignement</li>
-      <li class="internet">Internet</li>
-      <li class="scenographie">Sc&eacute;nographie</li>
-    </ul>
+    <ul><li class="application">Application</li><li class="enseignement">Enseignement</li><li class="internet">Internet</li><li class="scenographie">Scénographie</li></ul>
     <div class="contact">Contact</div>
     <div id="formulaire">
       <form id="new_message">
@@ -40,7 +35,6 @@
     </div>
   </div>
   <div id="url"></div>
-
   <script src="js/libs/json2.js"></script>
   <script src="js/data/projects.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -52,11 +46,11 @@
   <script src="js/fonts/Andale_Mono_400.font.js"></script>
   <script defer src="js/randomurl.js"></script>
   <script type="text/javascript">
-      Cufon.replace('#logo'); // Works without a selector engine
-    </script>
+     Cufon.replace($('#logo .contact, ul')); // Works without a selector engine
+  </script>
   <script defer src="js/script.js"></script>
 
-  <script type="text/javascript"> Cufon.now(); </script>
+  <script type="text/javascript">Cufon.now();</script>
   <script>
     var _gaq=[['_setAccount','UA-4596354-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
