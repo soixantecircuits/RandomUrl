@@ -55,6 +55,7 @@ $(function(){
         $("#url").fadeIn("5500");
         $(".blue").removeClass("blue");
         $("."+proj.get('type')).addClass("blue");
+        Cufon.refresh();
     }
 
   });

@@ -60,7 +60,7 @@ if (!empty($_POST))
 
 		
 		$message->setReturnPath($_POST['email']);
-		$message->setFrom(array($_POST['email'] => 'Mailer Soixante'));
+		$message->setFrom(array($_POST['email'] => $_POST['name']));
 		$message->addTo('contact@soixantecircuits.fr');
 		$message->setPriority(2);
 		

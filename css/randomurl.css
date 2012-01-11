@@ -108,3 +108,8 @@ ul{
   color: red;
   width: 296px;
 }
+
+input:focus,textarea:focus { 
+  outline: none; 
+  resize:none;
+}
