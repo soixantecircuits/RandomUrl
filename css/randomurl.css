@@ -1,6 +1,6 @@
 
 html {overflow: auto;}
-html, body, div, iframe {margin: 0px; padding: 0px; height: 100%; border: none;font-size: 10px; font-family: "Andale Mono", "Lucida Console", Monaco, monospace;}
+html, body, div, iframe {margin: 0px; padding: 0px; height:100%;border: none;font-size: 10px; font-family: "Andale Mono", "Lucida Console", Monaco, monospace;}
 iframe {z-index:0;display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden;}
 
 a{
@@ -24,10 +24,10 @@ a{
 
 #logo{
   width: 385px;
-  top: 0px;
-  left: 0px;
+  /*top: 0px;*/
+  /*left: 0px;*/
   z-index:9999;
-  position:fixed;
+  position:relative;
   opacity: 0.9;
   filter: alpha(opacity=90);
   background-color: white; /* For IE8 and earlier */

@@ -1,6 +1,7 @@
 //(c) Soixante circuits 2011
 
 // Load the application once the DOM is ready, using `jQuery.ready`:
+
 $(function(){
   
   //  Model
@@ -59,6 +60,7 @@ $(function(){
           App.randProject('internet');
         });
       });
+      $('#logo').draggable();
       this.randProject();
     },
 
