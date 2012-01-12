@@ -39,9 +39,15 @@ a{
 }
 
 #logo{
-    box-shadow: 0 0px 15px #222;
-   -webkit-box-shadow: 0 0 15px #222;
-   -moz-box-shadow: 0 0 15px #222;
+  box-shadow: 0 0px 15px #222;
+  -webkit-box-shadow: 0 0 15px #222;
+  -moz-box-shadow: 0 0 15px #222;
+   -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 } 
 
 body.ie6 #logo,
@@ -66,12 +72,14 @@ li{
   padding-right: 96px;
   style: none;
 }
+
 ul{
   list-style: none;
   list-style-image: none;
   position: absolute;
   top: 183px;
   left: 173px;
+  margin-top: 4px;
 }
 
 li.blue a{
