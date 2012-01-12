@@ -65,7 +65,6 @@ $(function(){
     randProject: function(type){
       
       if(projects.length < 1){
-        console.log("GOOD");
         projects.add(soixanteprojects);
       }
       

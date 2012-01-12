@@ -34,7 +34,7 @@ a{
   /*background-image: url('../img/50-20-10.png') !important;*/
   background-repeat: repeat;
   overflow: hidden;
-  height: auto;
+  height: 265px;
   padding: 0px 0px 12px 0px;
 }
 
@@ -69,6 +69,9 @@ li{
 ul{
   list-style: none;
   list-style-image: none;
+  position: absolute;
+  top: 183px;
+  left: 173px;
 }
 
 li.blue a{
@@ -89,7 +92,9 @@ li.blue a{
 #formulaire{
   display:none;
   overflow:hidden;
-  height:175px;
+  height:110px;
+  position: absolute;
+  top: 188px;
 }
 
 #formulaire input, textarea{
@@ -106,7 +111,7 @@ li.blue a{
 }
 
 #formulaire textarea{
-  height: 59px;
+  height: 35px;;
 }
 
 #formulaire input[type="submit"]{
