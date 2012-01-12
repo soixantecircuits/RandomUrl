@@ -3,6 +3,10 @@ html {overflow: auto;}
 html, body, div, iframe {margin: 0px; padding: 0px; height: 100%; border: none;font-size: 10px; font-family: "Andale Mono", "Lucida Console", Monaco, monospace;}
 iframe {z-index:0;display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden;}
 
+a{
+  text-decoration:none;
+  color: black;
+}
 #url{
   z-index: 888;
   position:absolute;
@@ -67,7 +71,7 @@ ul{
   list-style-image: none;
 }
 
-.blue{
+li.blue a{
   color: blue;
 }
 
@@ -78,6 +82,7 @@ ul{
  left: 60px;
  top: 113px;
  color:black;
+ height:20px;
  
 }
 
