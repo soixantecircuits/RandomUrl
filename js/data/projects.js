@@ -1,28 +1,74 @@
-var soixanteprojects = [ {url:'http://www.fondationchirac.eu', type:'internet'},
-                              {url:'http://www.afinejewel.com', type:'internet'},
-                              {url:'http://www.dailymotion.com/video/x83zi8_rm001-pour-remy-martin_creation', type:'scenographie'},
-                              {url:'http://www.cpp-luxury.com/en/christian-dior-inaugurate-flagship-in-beijing-with-lady-dior-exhibit_1942.html', type:'scenographie'},
-                              {url:'http://itunes.apple.com/us/app/leauparkenzo/id434401875?mt=8', type:'application'},
-                              {url:'http://www.ensci.com/fr/masteres-specialises/creation-et-technologie-contemporaine/presentation/mission/', type:'enseignement'},
-                              {url:'http://babiole.net/spip.php?article62', type:'scenographie'},
-                              {url:'http://www.licence.elec.upmc.fr/fr/02_Licences_alternance/04-L3_IOVIS/', type:'enseignement'},
-                              {url:'http://www.celsa-misc.fr/', type:'enseignement'},
-                              {url:'http://itunes.apple.com/us/app/pwc-story/id408374360?mt=8', type:'application'},
-                              {url:'http://www.collectifr.fr/1pourcent/c-rivalin-f-bragigand', type:'scenographie'},
-                              {url:'http://franklinazzi.com/dotclear/index.php?renard', type:'scenographie'},
-                              {url:'http://babiole.net/spip.php?article5', type:'scenographie'},
-                              {url:'http://www.leguide.ma/voyages/voy-articles.cfm?prod=197', type:'scenographie'},
-                              {url:'http://www.artdaily.com/index.asp?int_sec=11&int_new=33583&int_modo=2', type:'scenographie'},
-                              {url:'http://franklinazzi.com/dotclear/index.php?ratp', type:'scenographie'},
-                              {url:'http://babiole.net/spip.php?article4', type:'scenographie'},
-                              {url:'http://www.dailymotion.com/video/x83zm1_section-amour-ballons-d-amour_creation', type:'scenographie'},
-                              {url:'http://www.dailymotion.com/video/x83zf1_magnifique-de-lancome-ecran-de-led_creation#rel-page-under-4', type:'scenographie'},
-                              {url:'http://www.babiole.net/spip.php?article9', type:'scenographie'},
-                              {url:'http://www.be-art-website.com/index.php?in=10198', type:'scenographie'},
-                              {url:'http://www.galeriefrankelbaz.com/wp/artists/davide-balula/davide-balula-shows/#DB-show2007-4', type:'scenographie'},
-                              {url:'http://bouchrajarrar.com/', type:'internet'}
-                              //{url:''},
-                              //{url:''},
-                              //{url:''},
-                            ]; 
-  
+var soixanteprojects = [{
+      url: 'http://www.fondationchirac.eu',
+      type: 'internet'
+}, {
+      url: 'http://www.afinejewel.com',
+      type: 'internet'
+}, {
+      url: 'http://www.dailymotion.com/video/x83zi8_rm001-pour-remy-martin_creation',
+      type: 'scenographie'
+}, {
+      url: 'http://www.cpp-luxury.com/en/christian-dior-inaugurate-flagship-in-beijing-with-lady-dior-exhibit_1942.html',
+      type: 'scenographie'
+}, {
+      url: 'http://itunes.apple.com/us/app/leauparkenzo/id434401875?mt=8',
+      type: 'application'
+}, {
+      url: 'http://www.ensci.com/fr/masteres-specialises/creation-et-technologie-contemporaine/presentation/mission/',
+      type: 'enseignement'
+}, {
+      url: 'http://babiole.net/spip.php?article62',
+      type: 'scenographie'
+}, {
+      url: 'http://www.licence.elec.upmc.fr/fr/02_Licences_alternance/04-L3_IOVIS/',
+      type: 'enseignement'
+}, {
+      url: 'http://www.celsa-misc.fr/',
+      type: 'enseignement'
+}, {
+      url: 'http://itunes.apple.com/fr/app/pwc-story/id408374360?mt=8',
+      type: 'application'
+}, {
+      url: 'http://www.collectifr.fr/1pourcent/c-rivalin-f-bragigand',
+      type: 'scenographie'
+}, {
+      url: 'http://franklinazzi.com/dotclear/index.php?renard',
+      type: 'scenographie'
+}, {
+      url: 'http://babiole.net/spip.php?article5',
+      type: 'scenographie'
+}, {
+      url: 'http://www.leguide.ma/voyages/voy-articles.cfm?prod=197',
+      type: 'scenographie'
+}, {
+      url: 'http://www.artdaily.com/index.asp?int_sec=11&int_new=33583&int_modo=2',
+      type: 'scenographie'
+}, {
+      url: 'http://franklinazzi.com/dotclear/index.php?ratp',
+      type: 'scenographie'
+}, {
+      url: 'http://babiole.net/spip.php?article4',
+      type: 'scenographie'
+}, {
+      url: 'http://www.dailymotion.com/video/x83zm1_section-amour-ballons-d-amour_creation',
+      type: 'scenographie'
+}, {
+      url: 'http://www.dailymotion.com/video/x83zf1_magnifique-de-lancome-ecran-de-led_creation#rel-page-under-4',
+      type: 'scenographie'
+}, {
+      url: 'http://www.babiole.net/spip.php?article9',
+      type: 'scenographie'
+}, {
+      url: 'http://www.be-art-website.com/index.php?in=10198',
+      type: 'scenographie'
+}, {
+      url: 'http://www.galeriefrankelbaz.com/wp/artists/davide-balula/davide-balula-shows/#DB-show2007-4',
+      type: 'scenographie'
+}, {
+      url: 'http://bouchrajarrar.com/',
+      type: 'internet'
+}
+//{url:''},
+//{url:''},
+//{url:''},
+];
