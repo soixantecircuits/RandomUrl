@@ -3,18 +3,18 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  <Soixante circuits>: <Emmanuel Geoffray & Gabriel Delattre>
+  Site:http://www.soixantecircuits.fr
+  Twitter:https://twitter.com/#!/Soixanteci
+  Location:Paris, France
 
 /* THANKS */
-  Names (& URL):
+  Names (& URL): Pierre-François Letue
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software:SublimeText2 + Vi
 
 
 
